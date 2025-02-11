@@ -37,6 +37,11 @@ $ npm install
 ```bash
 # development
 $ npm run start
+$ nest start bookstore-apigateway --watch
+$ nest start users --watch
+$ nest start bookstore-apigateway --watch
+$ nest start books --watch
+
 
 # watch mode
 $ npm run start:dev
