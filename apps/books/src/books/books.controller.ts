@@ -1,8 +1,9 @@
 import { Controller } from '@nestjs/common';
 import { MessagePattern, Payload } from '@nestjs/microservices';
 import { BooksService } from './books.service';
-import { CreateBookDto } from './dto/create-book.dto';
-import { UpdateBookDto } from './dto/update-book.dto';
+import { CreateBookDto } from '@app/contracts/books/create-book.dto';
+import { UpdateBookDto } from '@app/contracts/books/update-book.dto';
+
 
 @Controller()
 export class BooksController {
